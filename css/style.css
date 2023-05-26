@@ -1,0 +1,174 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+
+body {
+     background-image: url("../images/notebook.png");
+
+}
+
+h1 {
+     font-size: 50px;
+     font-family: lato;
+     margin-block-end: 0px;
+}
+
+h2 {
+     font-size: 27px;
+     font-family: lato;
+     margin-block-start: 0px;
+     margin-block-end: 5px;
+
+}
+
+h3 {
+     font-size: 15px;
+     font-family: lato;
+}
+
+h4 {
+     font-size: 15px;
+     font-family: lato;
+     margin-block-start: 30px;
+}
+
+h5 {
+     font-family: lato;
+     font-size: 12.5px;
+     margin-block-start: 15px;
+}
+
+a {
+     color: #ea6752;
+     text-decoration: none;
+}
+
+#subheader {
+     margin-block-start: 0px;
+     font-size: 12px;
+     font-family: lato;
+}
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container {
+     width: 900px;
+     margin: 0 auto 0 auto;
+
+}
+
+#main {
+     background: white;
+     margin: 15px 5px auto 0;
+     width: 590px;
+     float: left;
+     padding: 20px;
+}
+
+#sidebar {
+     float: left;
+     background: white;
+     width: 280px;
+     margin: 15px 0 auto 5px ;
+     padding: 20px;
+
+}
+
+#footer {
+     
+}
+
+#vertical {
+     float: left;
+     width: 3px;
+     height: 100px;
+     background: #b4b4b4;
+     border-left: 10px;
+     margin: 5px 5px auto auto;
+
+
+}
+
+#quote {
+     float: left;
+     width: 230px;
+}
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+.context {
+     font-size: 12px;
+     font-family: lato;
+
+}
+
+.footer-text {
+     font-size: 12px;
+     font-family: lato;
+     color: grey;
+     margin-block-end: 60px;
+}
+
+hr {
+     color: #cacaca;
+}
+
+/*----------------------------------------------------------------------------- 
+04=SIDEBAR  
+-----------------------------------------------------------------------------*/
+
+ul {
+     font-family: lato;
+     font-size: 13px;
+     padding-inline-start: 30px;
+}
+
+#list {
+     margin-block-start: 3px;
+     margin-block-end: 3px;
+}
+
+.pfp {
+     border-radius: 50%;
+     max-width: 170px;
+}
+
+#quote {
+     font-family: lato;
+     font-style: italic;
+     font-size: 14px;
+     margin-block: 5px;
+}
+
+#quote1 {
+     font-family: lato;
+     font-style: italic;
+     font-size: 14px;
+     margin: 0 0 0 0;
+}
+
+#quote2 {
+     font-family: lato;
+     font-style: italic;
+     font-size: 14px;
+     padding: 15px;
+     margin-block-start: 5px;
